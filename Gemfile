@@ -16,7 +16,10 @@ group :assets do
   gem 'uglifier', '1.2.3'
 end
 
+gem 'annotate', '2.5.0', group: :development
+
 gem 'jquery-rails', '2.0.2'
+gem 'bcrypt-ruby', '3.0.1'
 
 group :test do
   gem 'capybara', '1.1.2'
